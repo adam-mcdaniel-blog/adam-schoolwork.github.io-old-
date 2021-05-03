@@ -10,9 +10,7 @@ export const Wrapper = styled.div `
 export const Brand = styled.a `
   color: #fff;
 
-  @media (max-width: 960px) {
-    mix-blend-mode: difference;
-  }
+  mix-blend-mode: difference;
 
   font-size: 1.3em;
 `;
