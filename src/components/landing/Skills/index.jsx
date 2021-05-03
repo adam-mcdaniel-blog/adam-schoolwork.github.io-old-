@@ -19,6 +19,8 @@ export const Skills = () => {
           <p>
             There's <b>always</b> more to learn. We'll give you helpful tips and tricks for writing
             elegant code, no matter your skill level. No more endless hours of debugging!
+            
+            hmmm
           </p>
         </Details>
       </SkillsWrapper>
