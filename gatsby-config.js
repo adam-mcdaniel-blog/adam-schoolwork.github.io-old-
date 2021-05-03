@@ -52,7 +52,7 @@ module.exports = {
             options: {
                 name: config.defaultTitle,
                 short_name: 'starter',
-                start_url: '/engl360-final/',
+                start_url: '/',
                 background_color: config.backgroundColor,
                 theme_color: config.themeColor,
                 display: 'minimal-ui',
