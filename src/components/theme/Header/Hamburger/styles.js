@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div `
   z-index: 5;
   top: 1.6rem;
   right: 1.8rem;
@@ -16,21 +16,21 @@ export const Wrapper = styled.div`
   ${({ sidebar }) =>
     sidebar &&
     `
-			right: 18%;
-			top: 1.4rem;
-		
-			@media (max-width: 960px) {
-				right: 35%;
-				position: fixed;
-			}
-		
-			@media (max-width: 600px) {
-				right: 66%;
-			}
-	`}
+right: 18 % ;
+top: 1.4 rem;
+
+@media(max - width: 960 px) {
+    right: 35 % ;
+    position: fixed;
+}
+
+@media(max - width: 600 px) {
+    right: 66 % ;
+}
+`}
 `;
 
-export const Bar = styled.div`
+export const Bar = styled.div `
 	width: 1.6rem;
 	height: .15rem;
 	margin-bottom: .3rem;
@@ -48,23 +48,25 @@ export const Bar = styled.div`
     top &&
     sidebar &&
 		`
-		background-color: ${(theme === 'light' ? '#212121' : '#fff')};
-		transform: translateY(8px) rotate(-135deg);
-		
-	`}
+background - color: $ {
+    (theme === 'light' ? '#212121' : '#fff') };
+transform: translateY(8 px) rotate(-135 deg);
+
+`}
 
 	${({ mid, sidebar }) =>
     mid &&
     sidebar &&
 		`
-		transform: scale(0);
-		`}
+transform: scale(0);
+`}
 
 	${({ bottom, sidebar, theme }) =>
     bottom &&
     sidebar &&
 		`
-			background-color: ${(theme === 'light' ? '#212121' : '#fff')};
-			transform: translateY(-6px) rotate(-45deg);
-	`}
+background - color: $ {
+    (theme === 'light' ? '#212121' : '#fff') };
+transform: translateY(-6 px) rotate(-45 deg);
+`}
 `;

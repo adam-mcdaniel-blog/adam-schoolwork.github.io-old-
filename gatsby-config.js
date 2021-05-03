@@ -1,4 +1,4 @@
-const config = module.exports = {
+const config = {
     logo: 'assets/illustrations/online_learning.svg',
     defaultTitle: 'Computer Science Lessons',
     author: 'Adam McDaniel',

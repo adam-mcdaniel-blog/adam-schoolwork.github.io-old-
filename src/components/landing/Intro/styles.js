@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import overlayIllustration from 'assets/illustrations/overlay.svg';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div `
   padding-bottom: 4rem;
   background-image: url(${overlayIllustration});
   background-size: contain;
@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
 `;
 
-export const IntroWrapper = styled.div`
+export const IntroWrapper = styled.div `
   padding: 4rem 0;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ export const IntroWrapper = styled.div`
   }
 `;
 
-export const Details = styled.div`
+export const Details = styled.div `
   flex: 1;
 
   @media (max-width: 960px) {
@@ -31,10 +31,10 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 36pt;
-    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+    color: #fff;
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+      mix-blend-mode: difference;
     }
 
     @media (max-width: 680px) {
@@ -46,10 +46,10 @@ export const Details = styled.div`
     margin-bottom: 2.5rem;
     font-size: 32pt;
     font-weight: normal;
-    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#e6e6e6')};
+    color: #e6e6e6;
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+      mix-blend-mode: difference;
     }
 
     @media (max-width: 680px) {
@@ -58,7 +58,7 @@ export const Details = styled.div`
   }
 `;
 
-export const Thumbnail = styled.div`
+export const Thumbnail = styled.div `
   flex: 1;
 
   @media (max-width: 960px) {

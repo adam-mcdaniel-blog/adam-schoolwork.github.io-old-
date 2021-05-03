@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div `
   padding: 2rem 0;
 `;
 
-export const Grid = styled.div`
+export const Grid = styled.div `
   display: grid;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -20,27 +20,27 @@ export const Grid = styled.div`
   }
 `;
 
-export const Item = styled.div`
+export const Item = styled.div `
   width: 100%;
   height: 100%;
   overflow: hidden;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
   h4 {
-    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+    color: #fff;
   }
 
   p {
-    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
+    color: #c7c7c7;
   }
 `;
 
-export const Content = styled.div`
+export const Content = styled.div `
   padding: 1rem 0;
   min-height: 160px;
 `;
 
-export const Stats = styled.div`
+export const Stats = styled.div `
   display: flex;
   align-items: center;
 
@@ -55,17 +55,17 @@ export const Stats = styled.div`
     }
 
     svg path {
-      fill: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+      fill: #fff;
     }
 
     span {
-      color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+      color: #fff;
       margin-left: 0.5rem;
     }
   }
 `;
 
-export const Languages = styled.div`
+export const Languages = styled.div `
   opacity: 0.5;
   font-size: 14px;
 `;
