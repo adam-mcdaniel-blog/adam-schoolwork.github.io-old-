@@ -1,6 +1,6 @@
 # adam-schoolwork.github.io
 
-This is our landing page for our ENGL360 final project.
+This is the landing page for our ENGL360 final project.
 
 ## Deploy
 
