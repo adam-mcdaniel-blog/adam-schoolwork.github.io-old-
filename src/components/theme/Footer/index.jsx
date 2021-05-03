@@ -7,7 +7,7 @@ export const Footer = () => (
   <Wrapper>
     <Flex as={Container}>
       <Details>
-        <h2>Computer Science Lessons</h2>
+        <h2>CodeBetter Lessons</h2>
         <span>
           Made by Adam McDaniel, Joonyoung Im, Kyung Min Han, Neh Patel, Logan Del Tillman
         </span>

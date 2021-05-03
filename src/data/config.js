@@ -1,6 +1,6 @@
 module.exports = {
     logo: 'assets/illustrations/online_learning.svg',
-    defaultTitle: 'Computer Science Lessons',
+    defaultTitle: 'CodeBetter Lessons',
     author: 'Adam McDaniel',
     legalName: 'Adam McDaniel',
     defaultDescription: 'This is our ENGL360 final project landing page!',

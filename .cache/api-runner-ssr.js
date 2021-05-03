@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[],"logo":"./static/favicon/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     },{
       plugin: require('/home/adam/Documents/school/engl360/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Computer Science Lessons","short_name":"starter","start_url":"/","background_color":"#6b63ff","theme_color":"#6b63ff","display":"minimal-ui","icon":"./static/favicon/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"8b1f499a13a7658c86c045e85b66f001"},
+      options: {"plugins":[],"name":"CodeBetter Lessons","short_name":"starter","start_url":"/","background_color":"#6b63ff","theme_color":"#6b63ff","display":"minimal-ui","icon":"./static/favicon/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"8b1f499a13a7658c86c045e85b66f001"},
     },{
       plugin: require('/home/adam/Documents/school/engl360/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

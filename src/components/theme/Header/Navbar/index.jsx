@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <Wrapper as={Container}>
       <Brand as={Link} to="/" theme={theme}>
-        Computer Science Lessons
+        CodeBetter Lessons
       </Brand>
       <NavbarLinks desktop />
     </Wrapper>
